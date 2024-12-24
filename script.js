@@ -325,7 +325,7 @@ document.querySelectorAll(".ingrdient-card_m").forEach((card) => {
       trigger: card,
       start: "top 5%",
       end: "bottom 5%",
-      markers: true,
+      // markers: true,
       scrub: true,
     },
   });
