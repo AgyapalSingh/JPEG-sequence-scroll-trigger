@@ -323,9 +323,9 @@ document.querySelectorAll(".ingrdient-card_m").forEach((card) => {
     opacity: 0,
     scrollTrigger: {
       trigger: card,
-      start: "top 10%",
-      end: "bottom 10%",
-      // markers: true,
+      start: "top 5%",
+      end: "bottom 5%",
+      markers: true,
       scrub: true,
     },
   });
