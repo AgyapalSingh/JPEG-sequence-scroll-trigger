@@ -288,7 +288,7 @@ canvas {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: #183457;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* .product-ingredients_m {
@@ -308,11 +308,11 @@ canvas {
   position: sticky;
   top: 15%;
   margin: 20px 20px;
-  background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
+  /* background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 10%;
+  border-radius: 10%; */
   /* background-attachment: fixed;  */
 }
 
@@ -324,7 +324,7 @@ canvas {
 }
 
 .ingrdient-card_m img {
-  width: 250px;
+  width: 350px;
   animation: moveUpDown 2s ease-in-out infinite;
   display: block;
   margin: 0 auto;
@@ -345,14 +345,14 @@ canvas {
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 24px;
   color: #183457;
 }
 
 .ingredient-info_m {
   margin-bottom: 10px;
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
   color: rgb(51, 51, 51);
 }
 

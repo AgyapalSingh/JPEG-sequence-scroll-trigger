@@ -19,7 +19,7 @@ tl_product_title.to(
       scrub: 5,
       onUpdate: (self) => {
         const progress = self.progress;
-        const textLength = Math.round(progress * fullText.length);
+        const textLength = Math.round(progress * fullText.length) ;
         const visibleText = fullText.substring(0, textLength) || shortText;
         title.textContent = visibleText;
 
