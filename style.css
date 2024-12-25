@@ -83,19 +83,25 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 /* 2.1 Left Benefits */
 .product-benefits-left {
   width: 25%;
   text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 /* 2.2 Right Benefits */
 .product-benefits-right {
   width: 25%;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 /* 2.1.1, 2.2.1 Benefits List */
