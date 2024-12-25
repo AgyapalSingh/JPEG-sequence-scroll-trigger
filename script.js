@@ -93,7 +93,7 @@ function loadImage(index) {
     canvas.height = window.innerHeight;
     const scaleX = canvas.width / img.width;
     const scaleY = canvas.height / img.height;
-    const scale = 1.3;
+    const scale = 1.5;
     const newWidth = img.width * scale;
     const newHeight = img.height * scale;
     const offsetX = (canvas.width - newWidth) / 2;
