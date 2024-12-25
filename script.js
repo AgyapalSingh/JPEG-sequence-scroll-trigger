@@ -93,7 +93,7 @@ function loadImage(index) {
     canvas.height = window.innerHeight;
     const scaleX = canvas.width / img.width;
     const scaleY = canvas.height / img.height;
-    const scale = 1.5;
+    const scale = 1.4;
     const newWidth = img.width * scale;
     const newHeight = img.height * scale;
     const offsetX = (canvas.width - newWidth) / 2;
@@ -110,9 +110,10 @@ function startAnimation() {
   var tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".product-image ",
-      start: "top 50%",
-      end: "top 10%",
+      start: "top 85%",
+      end: "top 5%",
       scrub: 1,
+      // markers: true
     },
   });
 
