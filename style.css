@@ -42,13 +42,11 @@
   color: white;
   scroll-behavior: smooth;
 }
-/* html,
-body {
-  
-} */
 
 /* DESKTOP ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************** */
 
+
+/* Parent Container */
 .launch-page-container {
   background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
   background-size: cover;
@@ -58,11 +56,13 @@ body {
   scroll-behavior: smooth;
 }
 
+/* 1. Title Div */
 .product-title {
   height: 200vh;
   overflow: hidden;
 }
 
+/* Animated Tittle */
 .product-title h1 {
   font-weight: bold;
   margin: 0;
@@ -77,6 +77,7 @@ body {
   color: #183457;
 }
 
+/* 2. Product Image and Benefits */
 .product-image-benefits {
   height: 100vh;
   display: flex;
@@ -85,16 +86,19 @@ body {
   align-items: center;
 }
 
+/* 2.1 Left Benefits */
 .product-benefits-left {
   width: 25%;
   text-align: right;
 }
 
+/* 2.2 Right Benefits */
 .product-benefits-right {
   width: 25%;
   list-style-type: none;
 }
 
+/* 2.1.1, 2.2.1 Benefits List */
 .benefits-product li {
   list-style-type: none;
   font-size: 20px;
@@ -104,14 +108,7 @@ body {
   color: #183457;
 }
 
-.product-image-benefits {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
+/* 2.3 Product Image Div */
 .product-image {
   width: 50%;
   display: flex;
@@ -119,6 +116,7 @@ body {
   align-items: center;
 }
 
+/* 2.3.1 Canvas id- #frame */
 canvas {
   width: 100%;
   display: flex;
@@ -126,18 +124,7 @@ canvas {
   align-items: center;
 }
 
-.product-image {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.product-image img {
-  width: 1px;
-  rotate: 60deg;
-}
-
+/* 3. Product Ingredients Div */
 .product-ingredients {
   display: flex;
   width: 100%;
@@ -147,6 +134,7 @@ canvas {
   justify-content: center;
 }
 
+/* 3.1 Ingredient Card */
 .ingrdient-card {
   display: flex;
   align-items: center;
@@ -154,6 +142,7 @@ canvas {
   font-family: "Poppins", sans-serif;
 }
 
+/* 3.1.1 Ingredient card Image */
 .ingrdient-card img {
   width: 300px;
   animation: moveUpDown 2s ease-in-out infinite;
@@ -171,6 +160,7 @@ canvas {
   }
 }
 
+/* 3.1.2 Ingredient Name */
 .ingredient-name {
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -180,6 +170,7 @@ canvas {
   color: #183457;
 }
 
+/* 3.1.2 Ingredient Indo */
 .ingredient-info {
   margin-bottom: 10px;
   text-align: center;
@@ -195,6 +186,7 @@ canvas {
   height: 100vh;
 }
 
+/* 0. Pre-Order Div */
 .pre-order {
   width: 100%;
   height: 8vh;
@@ -206,6 +198,7 @@ canvas {
   right: 0%;
 }
 
+/* 0.1 Preorder button */
 .pre-order a {
   text-decoration: none;
   background-color: #183457;
@@ -231,7 +224,7 @@ canvas {
 
 /* MOBILE ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************** */
 
-
+/* Parent Container */
 .launch-page-container_m {
   background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
   background-size: cover;
@@ -241,11 +234,13 @@ canvas {
   scroll-behavior: smooth;
 }
 
+/* 1. Title Div */
 .product-title_m {
   height: 150vh;
   overflow: hidden;
 }
 
+/* 1.1 Animated Tittle */
 .product-title_m h1 {
   font-weight: bold;
   margin: 0;
@@ -260,6 +255,7 @@ canvas {
   color: #183457;
 }
 
+/* 2. Product Image and Benefits */
 .product-image-benefits_m {
   display: flex;
   flex-direction: column;
@@ -267,6 +263,7 @@ canvas {
   align-items: center;
 }
 
+/* 2.1 Product Image Div */
 .product-image_m {
   width: 100%;
   display: flex;
@@ -274,6 +271,7 @@ canvas {
   align-items: center;
 }
 
+/* 2.1.1 Canvas id- #frame */
 #frame_m {
   width: 100%;
   display: flex;
@@ -281,6 +279,7 @@ canvas {
   align-items: center;
 }
 
+/* 2 Product Benefits List */
 .benefits-product_m li {
   text-decoration: none;
   font-size: 20px;
@@ -300,14 +299,20 @@ canvas {
   scroll-behavior: smooth;
 } */
 
+/* 3. Product Ingredients Div */ 
 .product-ingredients_m{
   margin-top: 50px;
 }
 
+/* 3.1 Ingredient Card */
 .ingrdient-card_m{
   position: sticky;
   top: 5%;
   margin: 20px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
   /* background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
   background-size: cover;
   background-repeat: no-repeat;
@@ -317,13 +322,7 @@ canvas {
   /* border: 1px solid red; */
 }
 
-.ingrdient-card_m {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Poppins", sans-serif;
-}
-
+/* 3.1.1 Ingredient card Image */
 .ingrdient-card_m img {
   width: 350px;
   animation: moveUpDown 2s ease-in-out infinite;
@@ -341,6 +340,7 @@ canvas {
   }
 }
 
+/* 3.1.2 Ingredient Name */
 .ingredient-name_m {
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -350,6 +350,7 @@ canvas {
   color: #183457;
 }
 
+/* 3.1.2 Ingredient Indo */
 .ingredient-info_m {
   margin-bottom: 10px;
   text-align: center;
@@ -365,6 +366,7 @@ canvas {
   height: 100vh;
 }
 
+/* 0. Pre-Order Div */
 .pre-order_m {
   width: 100%;
   height: 8vh;
@@ -375,6 +377,7 @@ canvas {
   top: 92%;
 }
 
+/* 0.1 Preorder button */
 .pre-order_m a {
   text-decoration: none;
   background-color: #183457;
