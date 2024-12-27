@@ -289,22 +289,21 @@ canvas {
   font-size: 18px;
 }
 
-/* .product-ingredients_m {
+/* 3.1 Ingredient Card */
+.product-ingredients_m {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   padding-bottom: 2vh;
   overflow: auto;
   scroll-behavior: smooth;
-} */
-
-/* 3. Product Ingredients Div */ 
-.product-ingredients_m{
-  margin-top: 50px;
+  /* border: 1px solid red; */
 }
 
+
+
 /* 3.1 Ingredient Card */
-.ingrdient-card_m{
+/* .ingrdient-card_m{
   position: sticky;
   top: 5%;
   margin: 20px 20px;
@@ -312,18 +311,25 @@ canvas {
   align-items: center;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-  /* background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
+  background-image: url(https://cdn.shopify.com/s/files/1/0589/0192/1956/files/Body-butter-bg.jpg?v=1734950195);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 10%; */
-  /* background-attachment: fixed;  */
-  /* border: 1px solid red; */
-}
+  border-radius: 10%;
+  background-attachment: fixed; 
+  border: 1px solid red;
+} */
 
+.ingrdient-card_m{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
 /* 3.1.1 Ingredient card Image */
 .ingrdient-card_m img {
   width: 350px;
+  height: 350px;
   animation: moveUpDown 2s ease-in-out infinite;
   display: block;
   margin: 0 auto;
@@ -345,7 +351,7 @@ canvas {
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   color: #183457;
 }
 
@@ -353,7 +359,7 @@ canvas {
 .ingredient-info_m {
   margin-bottom: 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(51, 51, 51);
 }
 
